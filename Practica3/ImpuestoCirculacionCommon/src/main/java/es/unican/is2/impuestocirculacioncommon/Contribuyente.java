@@ -1,6 +1,7 @@
 package es.unican.is2.impuestocirculacioncommon;
 
 import java.util.LinkedList;
+
 import java.util.List;
 
 /**
@@ -63,7 +64,7 @@ public class Contribuyente {
     /**
      * Retorna el valor total de impuesto de circulacion 
      * a pagar por el contribuyente debido a todos sus vehiculos
-     * @return valor total del impuesto de circulación
+     * @return valor total del impuesto de circulacion
      */
     public double totalImpuestoCirculacion() {
     	double total=0.0;

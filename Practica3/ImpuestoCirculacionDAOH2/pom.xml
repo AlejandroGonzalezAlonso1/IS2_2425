@@ -6,9 +6,15 @@
 
 	<dependencies>
 		<dependency>
-		<groupId>es.unican.is2</groupId>
-	    <artifactId>impuestocirculacioncommon</artifactId>
-	    <version>0.0.1-SNAPSHOT</version>
+			<groupId>es.unican.is2</groupId>
+		    <artifactId>impuestocirculacioncommon</artifactId>
+		    <version>0.0.1-SNAPSHOT</version>
 		</dependency>
+	<dependency>
+		<groupId>junit</groupId>
+		<artifactId>junit</artifactId>
+		<version>4.13.2</version>
+		<scope>test</scope>
+	</dependency>
 	</dependencies>
 </project>

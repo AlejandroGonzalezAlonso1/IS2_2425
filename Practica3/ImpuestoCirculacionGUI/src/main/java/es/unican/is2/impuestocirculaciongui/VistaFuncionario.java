@@ -2,6 +2,7 @@ package es.unican.is2.impuestocirculaciongui;
 
 import javax.swing.JFrame;
 
+
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 import javax.swing.DefaultListModel;
@@ -16,10 +17,7 @@ import javax.swing.JList;
 
 import javax.swing.border.LineBorder;
 
-import es.unican.is2.impuestocirculacioncommon.DataAccessException;
-import es.unican.is2.impuestocirculacioncommon.IInfoImpuestoCirculacion;
-import es.unican.is2.impuestocirculacioncommon.Contribuyente;
-import es.unican.is2.impuestocirculacioncommon.Vehiculo;
+import es.unican.is2.impuestocirculacioncommon.*;
 
 import java.awt.Color;
 import javax.swing.JButton;
