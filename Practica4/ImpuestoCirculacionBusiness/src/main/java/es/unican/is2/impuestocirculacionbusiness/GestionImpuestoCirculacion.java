@@ -1,6 +1,7 @@
 package es.unican.is2.impuestocirculacionbusiness;
 
 import es.unican.is2.impuestocirculacioncommon.*;
+
 import es.unican.is2.impuestocirculaciondaoh2.*;
 
 public class GestionImpuestoCirculacion implements IGestionContribuyentes, IGestionVehiculos, IInfoImpuestoCirculacion {

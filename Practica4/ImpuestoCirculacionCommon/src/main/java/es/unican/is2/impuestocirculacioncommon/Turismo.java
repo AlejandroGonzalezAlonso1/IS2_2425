@@ -37,16 +37,16 @@ public class Turismo extends Vehiculo {
         }
         LocalDate hoy = LocalDate.now();
         int antiguedad = hoy.getYear() - getFechaMatriculacion().getYear();
-        if (antiguedad > 25) {
+        if (antiguedad >= 25) {
             return 0;
         }
         if (getMotor() == TipoMotor.ELECTRICO) {
             return tarifaBase * 0.25;
         } 
-        if (getMotor() == TipoMotor.HIBRIDO && antiguedad <= 4) {
+        if (getMotor() == TipoMotor.HIBRIDO && antiguedad < 4) {
             return tarifaBase * 0.25;
         }     
-        if (getMotor() == TipoMotor.GAS && antiguedad == 0) {
+        if (getMotor() == TipoMotor.GAS && antiguedad < 1) {
             return tarifaBase * 0.5;
         }
         return tarifaBase;
